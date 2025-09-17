@@ -7,8 +7,7 @@ import MovieModal from '../MovieModal/MovieModal';
 import './App.module.css';
 import type { Movie } from '../../types/movie';
 import { fetchMovies } from '../../services/movieService';
-import toast from 'react-hot-toast';
-import { Toaster } from 'react-hot-toast';
+import { Toaster, toast } from 'react-hot-toast';
 
 function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
